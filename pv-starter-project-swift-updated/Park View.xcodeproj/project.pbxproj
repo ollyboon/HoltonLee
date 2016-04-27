@@ -27,7 +27,6 @@
 		A81126751CCAABF70033CD2C /* BatmanLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = A81126721CCAABF70033CD2C /* BatmanLocations.plist */; };
 		A81126761CCAABF70033CD2C /* TazLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = A81126731CCAABF70033CD2C /* TazLocations.plist */; };
 		A81126771CCAABF70033CD2C /* TweetyBirdLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = A81126741CCAABF70033CD2C /* TweetyBirdLocations.plist */; };
-		A85E77D51CCC852200555F54 /* warning2.png in Resources */ = {isa = PBXBuildFile; fileRef = A85E77D41CCC852100555F54 /* warning2.png */; };
 		E13AC6B91CC663F700E53B32 /* MagicMountain.plist in Resources */ = {isa = PBXBuildFile; fileRef = E13AC6B81CC663F600E53B32 /* MagicMountain.plist */; };
 		E13AC6BB1CC6643000E53B32 /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13AC6BA1CC6643000E53B32 /* Park.swift */; };
 		E13AC6BD1CC667CC00E53B32 /* ParkMapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13AC6BC1CC667CC00E53B32 /* ParkMapOverlay.swift */; };
@@ -48,6 +47,7 @@
 		FBDDF7971CCC1FA3007B3DB4 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDDF7951CCC1FA2007B3DB4 /* MainTableViewController.swift */; };
 		FBDDF7991CCC1FB6007B3DB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBDDF7981CCC1FB6007B3DB4 /* Assets.xcassets */; };
 		FBDDF79B1CCC1FDC007B3DB4 /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDDF79A1CCC1FDC007B3DB4 /* FoldingCell.swift */; };
+		FBDDF79F1CD11BCB007B3DB4 /* warning2.png in Resources */ = {isa = PBXBuildFile; fileRef = FBDDF79E1CD11BCB007B3DB4 /* warning2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,7 +75,6 @@
 		A81126721CCAABF70033CD2C /* BatmanLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BatmanLocations.plist; path = "../../PVParkViewSwiftResources/character-locations/BatmanLocations.plist"; sourceTree = "<group>"; };
 		A81126731CCAABF70033CD2C /* TazLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TazLocations.plist; path = "../../PVParkViewSwiftResources/character-locations/TazLocations.plist"; sourceTree = "<group>"; };
 		A81126741CCAABF70033CD2C /* TweetyBirdLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TweetyBirdLocations.plist; path = "../../PVParkViewSwiftResources/character-locations/TweetyBirdLocations.plist"; sourceTree = "<group>"; };
-		A85E77D41CCC852100555F54 /* warning2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = warning2.png; path = ../../../Images/warning2.png; sourceTree = "<group>"; };
 		A85E77DE1CCC85D300555F54 /* FoldingCellFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FoldingCellFramework.h; path = "../../../../../../Documents/folding-cell-master/FoldingCell/FoldingCellFramework/FoldingCellFramework.h"; sourceTree = "<group>"; };
 		CCBCADA2AEF780B2E9418F2F /* Pods-Park View.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Park View.release.xcconfig"; path = "Pods/Target Support Files/Pods-Park View/Pods-Park View.release.xcconfig"; sourceTree = "<group>"; };
 		E13AC6B81CC663F600E53B32 /* MagicMountain.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MagicMountain.plist; path = ../../PVParkViewSwiftResources/MagicMountain.plist; sourceTree = "<group>"; };
@@ -98,6 +97,7 @@
 		FBDDF7951CCC1FA2007B3DB4 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewController.swift; path = FoldingCell/MainTableViewController.swift; sourceTree = "<group>"; };
 		FBDDF7981CCC1FB6007B3DB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = FoldingCell/Assets.xcassets; sourceTree = "<group>"; };
 		FBDDF79A1CCC1FDC007B3DB4 /* FoldingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoldingCell.swift; path = FoldingCell/FoldingCell/FoldingCell.swift; sourceTree = "<group>"; };
+		FBDDF79E1CD11BCB007B3DB4 /* warning2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = warning2.png; path = "../../PVParkViewSwiftResources/annotation-images/warning2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +133,7 @@
 		076BF08F1680459100ACF08A /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				A85E77D41CCC852100555F54 /* warning2.png */,
+				FBDDF79E1CD11BCB007B3DB4 /* warning2.png */,
 				FB5D14421CCBD499001FCED0 /* mapbase.png */,
 				E13AC6C81CC6754A00E53B32 /* firstaid.png */,
 				E13AC6C91CC6754A00E53B32 /* firstaid@2x.png */,
@@ -327,7 +327,7 @@
 				FB5D14431CCBD499001FCED0 /* mapbase.png in Resources */,
 				E13AC6D61CC6754A00E53B32 /* star.png in Resources */,
 				07866AC7165EE2B400D7BB3A /* Default@2x.png in Resources */,
-				A85E77D51CCC852200555F54 /* warning2.png in Resources */,
+				FBDDF79F1CD11BCB007B3DB4 /* warning2.png in Resources */,
 				E13AC6B91CC663F700E53B32 /* MagicMountain.plist in Resources */,
 				07866AC9165EE2B400D7BB3A /* Default-568h@2x.png in Resources */,
 				A81126711CCAA9860033CD2C /* EntranceToGoliathRoute.plist in Resources */,
