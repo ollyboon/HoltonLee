@@ -21,6 +21,7 @@
 		52D644141A0FF9E500CCA056 /* MapOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D644131A0FF9E500CCA056 /* MapOptionsViewController.swift */; };
 		52D644161A0FFB7400CCA056 /* ParkMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D644151A0FFB7400CCA056 /* ParkMapViewController.swift */; };
 		52D644181A0FFD2600CCA056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D644171A0FFD2600CCA056 /* AppDelegate.swift */; };
+		600E4EAC3940502281770209 /* Pods_Park_View.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34932849B71E0D2CB5BB79C0 /* Pods_Park_View.framework */; };
 		A811266F1CCAA9510033CD2C /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = A811266E1CCAA9510033CD2C /* Character.swift */; };
 		A81126711CCAA9860033CD2C /* EntranceToGoliathRoute.plist in Resources */ = {isa = PBXBuildFile; fileRef = A81126701CCAA9860033CD2C /* EntranceToGoliathRoute.plist */; };
 		A81126751CCAABF70033CD2C /* BatmanLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = A81126721CCAABF70033CD2C /* BatmanLocations.plist */; };
@@ -63,10 +64,12 @@
 		07866ACB165EE2B400D7BB3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		07866ACE165EE2B400D7BB3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		07A2E1DE167988AA00355A96 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		34932849B71E0D2CB5BB79C0 /* Pods_Park_View.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Park_View.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		523931941A16F25E00E62D70 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		52D644131A0FF9E500CCA056 /* MapOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapOptionsViewController.swift; sourceTree = "<group>"; };
 		52D644151A0FFB7400CCA056 /* ParkMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkMapViewController.swift; sourceTree = "<group>"; };
 		52D644171A0FFD2600CCA056 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C4864709E31FAF1B7380F08 /* Pods-Park View.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Park View.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Park View/Pods-Park View.debug.xcconfig"; sourceTree = "<group>"; };
 		A811266E1CCAA9510033CD2C /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		A81126701CCAA9860033CD2C /* EntranceToGoliathRoute.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = EntranceToGoliathRoute.plist; path = ../../PVParkViewSwiftResources/EntranceToGoliathRoute.plist; sourceTree = "<group>"; };
 		A81126721CCAABF70033CD2C /* BatmanLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BatmanLocations.plist; path = "../../PVParkViewSwiftResources/character-locations/BatmanLocations.plist"; sourceTree = "<group>"; };
@@ -74,6 +77,7 @@
 		A81126741CCAABF70033CD2C /* TweetyBirdLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TweetyBirdLocations.plist; path = "../../PVParkViewSwiftResources/character-locations/TweetyBirdLocations.plist"; sourceTree = "<group>"; };
 		A85E77D41CCC852100555F54 /* warning2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = warning2.png; path = ../../../Images/warning2.png; sourceTree = "<group>"; };
 		A85E77DE1CCC85D300555F54 /* FoldingCellFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FoldingCellFramework.h; path = "../../../../../../Documents/folding-cell-master/FoldingCell/FoldingCellFramework/FoldingCellFramework.h"; sourceTree = "<group>"; };
+		CCBCADA2AEF780B2E9418F2F /* Pods-Park View.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Park View.release.xcconfig"; path = "Pods/Target Support Files/Pods-Park View/Pods-Park View.release.xcconfig"; sourceTree = "<group>"; };
 		E13AC6B81CC663F600E53B32 /* MagicMountain.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MagicMountain.plist; path = ../../PVParkViewSwiftResources/MagicMountain.plist; sourceTree = "<group>"; };
 		E13AC6BA1CC6643000E53B32 /* Park.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
 		E13AC6BC1CC667CC00E53B32 /* ParkMapOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkMapOverlay.swift; sourceTree = "<group>"; };
@@ -106,6 +110,7 @@
 				07866AB3165EE2B400D7BB3A /* UIKit.framework in Frameworks */,
 				07866AB5165EE2B400D7BB3A /* Foundation.framework in Frameworks */,
 				07866AB7165EE2B400D7BB3A /* CoreGraphics.framework in Frameworks */,
+				600E4EAC3940502281770209 /* Pods_Park_View.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +190,7 @@
 				07866AB8165EE2B400D7BB3A /* Park View */,
 				07866AB1165EE2B400D7BB3A /* Frameworks */,
 				07866AAF165EE2B400D7BB3A /* Products */,
+				FDFB69B1A5EBB702C6619C23 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -204,6 +210,7 @@
 				07866AB2165EE2B400D7BB3A /* UIKit.framework */,
 				07866AB4165EE2B400D7BB3A /* Foundation.framework */,
 				07866AB6165EE2B400D7BB3A /* CoreGraphics.framework */,
+				34932849B71E0D2CB5BB79C0 /* Pods_Park_View.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -242,6 +249,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FDFB69B1A5EBB702C6619C23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C4864709E31FAF1B7380F08 /* Pods-Park View.debug.xcconfig */,
+				CCBCADA2AEF780B2E9418F2F /* Pods-Park View.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07866AEA165EE2B400D7BB3A /* Build configuration list for PBXNativeTarget "Park View" */;
 			buildPhases = (
+				01F9AE903D7E2CDD2B56B45E /* Check Pods Manifest.lock */,
 				07866AAA165EE2B400D7BB3A /* Sources */,
 				07866AAB165EE2B400D7BB3A /* Frameworks */,
 				07866AAC165EE2B400D7BB3A /* Resources */,
+				47C74012DE4ECDD6F66F843B /* Embed Pods Frameworks */,
+				4E28BFE7EE14E081702CD420 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,7 +291,7 @@
 				LastSwiftMigration = 0720;
 				LastSwiftUpdateCheck = 0720;
 				LastTestingUpgradeCheck = 0510;
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Chris Wagner";
 			};
 			buildConfigurationList = 07866AA8165EE2B400D7BB3A /* Build configuration list for PBXProject "Park View" */;
@@ -326,22 +345,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2DC8DF88882321E791E82E76 /* Copy Pods Resources */ = {
+		01F9AE903D7E2CDD2B56B45E /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Park View/Pods-Park View-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		616AF44C164F0F4153D68612 /* Embed Pods Frameworks */ = {
+		47C74012DE4ECDD6F66F843B /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -356,19 +375,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Park View/Pods-Park View-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9117D6CE53942762AEEDEC8A /* Check Pods Manifest.lock */ = {
+		4E28BFE7EE14E081702CD420 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Park View/Pods-Park View-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -434,6 +453,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -477,6 +497,7 @@
 		};
 		07866AEB165EE2B400D7BB3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4864709E31FAF1B7380F08 /* Pods-Park View.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -484,6 +505,7 @@
 				INFOPLIST_FILE = "Park View/Park View-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chriswagner.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
@@ -492,6 +514,7 @@
 		};
 		07866AEC165EE2B400D7BB3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCBCADA2AEF780B2E9418F2F /* Pods-Park View.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -499,6 +522,7 @@
 				INFOPLIST_FILE = "Park View/Park View-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chriswagner.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
