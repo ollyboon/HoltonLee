@@ -163,19 +163,16 @@
                                                     <color key="backgroundColor" red="0.27419959913248226" green="0.64522573554050688" blue="0.88070598821989532" alpha="1" colorSpace="calibratedRGB"/>
                                                 </view>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Take a journey through the estate's varied natural environment" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHg-nW-ALI">
-                                                    <rect key="frame" x="22" y="62" width="212" height="27"/>
+                                                    <rect key="frame" x="17" y="46" width="165" height="66"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="212" id="yne-dA-8Lw"/>
-                                                    </constraints>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Clump Path" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nke-zd-RED">
-                                                    <rect key="frame" x="22" y="17" width="165" height="37"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Clump Path" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nke-zd-RED">
+                                                    <rect key="frame" x="17" y="8" width="165" height="37"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="37" id="CyW-ZA-3dx"/>
-                                                        <constraint firstAttribute="width" constant="165" id="zvh-JK-IxW"/>
+                                                        <constraint firstAttribute="width" constant="165" id="b7V-rT-SU1"/>
+                                                        <constraint firstAttribute="height" constant="37" id="riQ-IG-DbN"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -184,16 +181,17 @@
                                             </subviews>
                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
-                                                <constraint firstItem="YHg-nW-ALI" firstAttribute="top" secondItem="Y2t-So-LNa" secondAttribute="top" constant="62" id="1Va-O1-PbR"/>
-                                                <constraint firstItem="Nke-zd-RED" firstAttribute="leading" secondItem="Y2t-So-LNa" secondAttribute="leading" constant="22" id="4qf-dO-jLa"/>
-                                                <constraint firstAttribute="bottom" secondItem="YHg-nW-ALI" secondAttribute="bottom" constant="31" id="7r8-7b-C82"/>
-                                                <constraint firstItem="Nke-zd-RED" firstAttribute="top" secondItem="Y2t-So-LNa" secondAttribute="topMargin" constant="9" id="BQe-Mk-wVu"/>
+                                                <constraint firstItem="Nke-zd-RED" firstAttribute="leading" secondItem="HyG-K4-Q48" secondAttribute="trailing" constant="8" symbolic="YES" id="0CX-HS-qOc"/>
+                                                <constraint firstItem="YHg-nW-ALI" firstAttribute="leading" secondItem="Nke-zd-RED" secondAttribute="leading" id="N4L-Xt-yvb"/>
                                                 <constraint firstItem="HyG-K4-Q48" firstAttribute="top" secondItem="Y2t-So-LNa" secondAttribute="top" id="WEW-nS-ikP"/>
+                                                <constraint firstItem="YHg-nW-ALI" firstAttribute="trailing" secondItem="Nke-zd-RED" secondAttribute="trailing" id="WsB-UN-3YV"/>
                                                 <constraint firstAttribute="height" constant="120" id="XTK-St-NYa"/>
                                                 <constraint firstItem="HyG-K4-Q48" firstAttribute="leading" secondItem="Y2t-So-LNa" secondAttribute="leading" id="bFE-L7-Eff"/>
-                                                <constraint firstItem="Nke-zd-RED" firstAttribute="leading" secondItem="HyG-K4-Q48" secondAttribute="trailing" constant="13" id="d8k-Cs-yBd"/>
+                                                <constraint firstItem="YHg-nW-ALI" firstAttribute="top" secondItem="Nke-zd-RED" secondAttribute="bottom" constant="1" id="gh0-vf-fp7"/>
                                                 <constraint firstAttribute="bottom" secondItem="HyG-K4-Q48" secondAttribute="bottom" id="hFj-HP-bne"/>
-                                                <constraint firstItem="Nke-zd-RED" firstAttribute="leading" secondItem="YHg-nW-ALI" secondAttribute="leading" id="i8E-je-Dz7"/>
+                                                <constraint firstItem="Nke-zd-RED" firstAttribute="leading" secondItem="Y2t-So-LNa" secondAttribute="leading" constant="17" id="unv-O3-kEP"/>
+                                                <constraint firstItem="YHg-nW-ALI" firstAttribute="bottom" secondItem="Y2t-So-LNa" secondAttribute="bottomMargin" id="vHj-xh-Nno"/>
+                                                <constraint firstItem="Nke-zd-RED" firstAttribute="top" secondItem="Y2t-So-LNa" secondAttribute="topMargin" id="xGP-7y-Ksi"/>
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cl5-kE-aCK" userLabel="Contener">
@@ -340,7 +338,7 @@
                                                             </constraints>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vFg-sh-H2r" userLabel="fromView">
-                                                            <rect key="frame" x="22" y="0.0" width="270.5" height="73"/>
+                                                            <rect key="frame" x="22" y="0.0" width="271" height="73"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Duration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcT-aa-gmx">
                                                                     <rect key="frame" x="0.0" y="26" width="248" height="21"/>
@@ -375,11 +373,14 @@
                                                             </constraints>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DhV-ag-f5c" userLabel="toView">
-                                                            <rect key="frame" x="293.5" y="0.0" width="270.5" height="73"/>
+                                                            <rect key="frame" x="294" y="0.0" width="271" height="73"/>
                                                             <subviews>
-                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZH-CJ-b4e">
-                                                                    <rect key="frame" x="132.5" y="22" width="46" height="30"/>
-                                                                    <state key="normal" title="Button"/>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZH-CJ-b4e">
+                                                                    <rect key="frame" x="235" y="19" width="36" height="36"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="36" id="jm3-Hk-os6"/>
+                                                                    </constraints>
+                                                                    <state key="normal" image="Go Button"/>
                                                                     <connections>
                                                                         <segue destination="FJL-h2-6xI" kind="modal" id="e7b-Ck-bLb"/>
                                                                     </connections>
@@ -387,8 +388,9 @@
                                                             </subviews>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="trailing" secondItem="UZH-CJ-b4e" secondAttribute="trailing" constant="92" id="EqU-ru-WRi"/>
-                                                                <constraint firstItem="UZH-CJ-b4e" firstAttribute="centerY" secondItem="DhV-ag-f5c" secondAttribute="centerY" id="xOh-bf-5VB"/>
+                                                                <constraint firstItem="UZH-CJ-b4e" firstAttribute="top" secondItem="DhV-ag-f5c" secondAttribute="top" constant="19" id="KsM-Bj-sQs"/>
+                                                                <constraint firstItem="UZH-CJ-b4e" firstAttribute="centerY" secondItem="DhV-ag-f5c" secondAttribute="centerY" id="NpZ-yM-wSs"/>
+                                                                <constraint firstAttribute="trailing" secondItem="UZH-CJ-b4e" secondAttribute="trailing" id="y1T-q4-DPR"/>
                                                             </constraints>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j6i-Ld-uaQ" userLabel="bottom line">
@@ -497,6 +499,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Go Button" width="68" height="68"/>
         <image name="beehive.png" width="2048" height="1536"/>
         <image name="burger" width="38" height="29"/>
         <image name="clock.png" width="200" height="200"/>
