@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="satellite" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LSo-fr-8xD">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LSo-fr-8xD">
                                 <rect key="frame" x="0.0" y="44" width="320" height="524"/>
                                 <connections>
                                     <outlet property="delegate" destination="FJL-h2-6xI" id="SYw-jX-TD4"/>
@@ -505,6 +505,6 @@
         <image name="location-user" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="L7J-zC-RDV"/>
+        <segue reference="e7b-Ck-bLb"/>
     </inferredMetricsTieBreakers>
 </document>
