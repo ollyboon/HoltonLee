@@ -9,6 +9,7 @@
         <!--Map-->
         <scene sceneID="QZh-Ha-k2y">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LwU-tG-gVr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="FJL-h2-6xI" customClass="ParkMapViewController" customModule="Park_View" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yqm-V9-xHS"/>
@@ -53,7 +54,6 @@
                         <outlet property="mapView" destination="LSo-fr-8xD" id="7WQ-DE-Win"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LwU-tG-gVr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-15" y="845"/>
         </scene>
@@ -178,17 +178,26 @@
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="graph" translatesAutoresizingMaskIntoConstraints="NO" id="Xm8-aJ-gft">
+                                                    <rect key="frame" x="502" y="0.0" width="84" height="120"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="84" id="kOx-53-nME"/>
+                                                    </constraints>
+                                                </imageView>
                                             </subviews>
                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="Nke-zd-RED" firstAttribute="leading" secondItem="HyG-K4-Q48" secondAttribute="trailing" constant="8" symbolic="YES" id="0CX-HS-qOc"/>
                                                 <constraint firstItem="YHg-nW-ALI" firstAttribute="leading" secondItem="Nke-zd-RED" secondAttribute="leading" id="N4L-Xt-yvb"/>
                                                 <constraint firstItem="HyG-K4-Q48" firstAttribute="top" secondItem="Y2t-So-LNa" secondAttribute="top" id="WEW-nS-ikP"/>
+                                                <constraint firstItem="Xm8-aJ-gft" firstAttribute="bottom" secondItem="HyG-K4-Q48" secondAttribute="bottom" id="WbB-IV-BQh"/>
                                                 <constraint firstItem="YHg-nW-ALI" firstAttribute="trailing" secondItem="Nke-zd-RED" secondAttribute="trailing" id="WsB-UN-3YV"/>
                                                 <constraint firstAttribute="height" constant="120" id="XTK-St-NYa"/>
                                                 <constraint firstItem="HyG-K4-Q48" firstAttribute="leading" secondItem="Y2t-So-LNa" secondAttribute="leading" id="bFE-L7-Eff"/>
+                                                <constraint firstItem="Xm8-aJ-gft" firstAttribute="top" secondItem="HyG-K4-Q48" secondAttribute="top" id="feq-vX-gsO"/>
                                                 <constraint firstItem="YHg-nW-ALI" firstAttribute="top" secondItem="Nke-zd-RED" secondAttribute="bottom" constant="1" id="gh0-vf-fp7"/>
                                                 <constraint firstAttribute="bottom" secondItem="HyG-K4-Q48" secondAttribute="bottom" id="hFj-HP-bne"/>
+                                                <constraint firstAttribute="trailing" secondItem="Xm8-aJ-gft" secondAttribute="trailing" id="qfl-k6-JLI"/>
                                                 <constraint firstItem="Nke-zd-RED" firstAttribute="leading" secondItem="Y2t-So-LNa" secondAttribute="leading" constant="17" id="unv-O3-kEP"/>
                                                 <constraint firstItem="YHg-nW-ALI" firstAttribute="bottom" secondItem="Y2t-So-LNa" secondAttribute="bottomMargin" id="vHj-xh-Nno"/>
                                                 <constraint firstItem="Nke-zd-RED" firstAttribute="top" secondItem="Y2t-So-LNa" secondAttribute="topMargin" id="xGP-7y-Ksi"/>
@@ -382,7 +391,7 @@
                                                                     </constraints>
                                                                     <state key="normal" image="Go Button"/>
                                                                     <connections>
-                                                                        <segue destination="FJL-h2-6xI" kind="modal" id="e7b-Ck-bLb"/>
+                                                                        <segue destination="FJL-h2-6xI" kind="modal" id="CzL-st-c8H"/>
                                                                     </connections>
                                                                 </button>
                                                             </subviews>
@@ -508,6 +517,6 @@
         <image name="location-user" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="e7b-Ck-bLb"/>
+        <segue reference="CzL-st-c8H"/>
     </inferredMetricsTieBreakers>
 </document>
