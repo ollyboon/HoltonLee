@@ -156,14 +156,14 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y2t-So-LNa" userLabel="Foreground" customClass="RotatedView" customModule="Park_View" customModuleProvider="target">
-                                            <rect key="frame" x="20" y="7" width="560" height="165"/>
+                                            <rect key="frame" x="7" y="7" width="586" height="120"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HyG-K4-Q48">
-                                                    <rect key="frame" x="0.0" y="0.0" width="9" height="165"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="9" height="120"/>
                                                     <color key="backgroundColor" red="0.27419959913248226" green="0.64522573554050688" blue="0.88070598821989532" alpha="1" colorSpace="calibratedRGB"/>
                                                 </view>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Take a journey through the estate's varied natural environment" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHg-nW-ALI">
-                                                    <rect key="frame" x="22" y="62" width="212" height="72"/>
+                                                    <rect key="frame" x="22" y="62" width="212" height="27"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="212" id="yne-dA-8Lw"/>
@@ -189,7 +189,7 @@
                                                 <constraint firstAttribute="bottom" secondItem="YHg-nW-ALI" secondAttribute="bottom" constant="31" id="7r8-7b-C82"/>
                                                 <constraint firstItem="Nke-zd-RED" firstAttribute="top" secondItem="Y2t-So-LNa" secondAttribute="topMargin" constant="9" id="BQe-Mk-wVu"/>
                                                 <constraint firstItem="HyG-K4-Q48" firstAttribute="top" secondItem="Y2t-So-LNa" secondAttribute="top" id="WEW-nS-ikP"/>
-                                                <constraint firstAttribute="height" constant="165" id="XTK-St-NYa"/>
+                                                <constraint firstAttribute="height" constant="120" id="XTK-St-NYa"/>
                                                 <constraint firstItem="HyG-K4-Q48" firstAttribute="leading" secondItem="Y2t-So-LNa" secondAttribute="leading" id="bFE-L7-Eff"/>
                                                 <constraint firstItem="Nke-zd-RED" firstAttribute="leading" secondItem="HyG-K4-Q48" secondAttribute="trailing" constant="13" id="d8k-Cs-yBd"/>
                                                 <constraint firstAttribute="bottom" secondItem="HyG-K4-Q48" secondAttribute="bottom" id="hFj-HP-bne"/>
@@ -340,7 +340,7 @@
                                                             </constraints>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vFg-sh-H2r" userLabel="fromView">
-                                                            <rect key="frame" x="22" y="0.0" width="258" height="73"/>
+                                                            <rect key="frame" x="22" y="0.0" width="257.5" height="73"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Duration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcT-aa-gmx">
                                                                     <rect key="frame" x="0.0" y="26" width="248" height="21"/>
@@ -375,10 +375,10 @@
                                                             </constraints>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DhV-ag-f5c" userLabel="toView">
-                                                            <rect key="frame" x="281" y="0.0" width="257" height="73"/>
+                                                            <rect key="frame" x="280.5" y="0.0" width="257.5" height="73"/>
                                                             <subviews>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZH-CJ-b4e">
-                                                                    <rect key="frame" x="119" y="22" width="46" height="30"/>
+                                                                    <rect key="frame" x="119.5" y="22" width="46" height="30"/>
                                                                     <state key="normal" title="Button"/>
                                                                     <connections>
                                                                         <segue destination="FJL-h2-6xI" kind="modal" id="e7b-Ck-bLb"/>
@@ -442,9 +442,9 @@
                                         <constraint firstAttribute="trailing" secondItem="Cl5-kE-aCK" secondAttribute="trailing" constant="20" id="JqO-MK-uqe"/>
                                         <constraint firstItem="Cl5-kE-aCK" firstAttribute="leading" secondItem="Weu-PR-xdV" secondAttribute="leading" constant="20" id="XVb-Uh-bek"/>
                                         <constraint firstItem="Cl5-kE-aCK" firstAttribute="top" secondItem="Weu-PR-xdV" secondAttribute="top" constant="180" identifier="ContainerViewTop" id="eWD-z5-621"/>
-                                        <constraint firstItem="Y2t-So-LNa" firstAttribute="leading" secondItem="Weu-PR-xdV" secondAttribute="leading" constant="20" id="ehg-pM-8j2"/>
+                                        <constraint firstItem="Y2t-So-LNa" firstAttribute="leading" secondItem="Weu-PR-xdV" secondAttribute="leading" constant="7" id="ehg-pM-8j2"/>
                                         <constraint firstItem="Y2t-So-LNa" firstAttribute="top" secondItem="Weu-PR-xdV" secondAttribute="top" constant="7" identifier="ForegroundViewTop" id="ioe-mb-Keg"/>
-                                        <constraint firstAttribute="trailing" secondItem="Y2t-So-LNa" secondAttribute="trailing" constant="20" id="zUg-DF-5HR"/>
+                                        <constraint firstAttribute="trailing" secondItem="Y2t-So-LNa" secondAttribute="trailing" constant="7" id="zUg-DF-5HR"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.91372549020000005" green="0.85277035359999998" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
