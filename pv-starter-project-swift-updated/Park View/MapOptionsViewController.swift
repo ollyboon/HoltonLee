@@ -36,13 +36,13 @@ class MapOptionsViewController: UIViewController, UITableViewDelegate, UITableVi
     let mapOptionsType = MapOptionsType(rawValue: indexPath.row)
     switch (mapOptionsType!) {
     case .MapBoundary:
-      cell.textLabel!.text = "Park Boundary"
+      cell.textLabel!.text = "Boundary"
     case .MapOverlay:
       cell.textLabel!.text = "Map Overlay"
     case .MapPins:
-      cell.textLabel!.text = "Attraction Pins"
+      cell.textLabel!.text = "Warning Pins"
     case .MapCharacterLocation:
-      cell.textLabel!.text = "Character Location"
+      cell.textLabel!.text = "Person Location"
     case .MapRoute:
       cell.textLabel!.text = "Route"
     }
