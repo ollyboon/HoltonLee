@@ -411,7 +411,11 @@
                                                                     </constraints>
                                                                     <state key="normal" image="Go Button"/>
                                                                     <connections>
+<<<<<<< Updated upstream
                                                                         <segue destination="FJL-h2-6xI" kind="modal" id="xmf-uk-mrm"/>
+=======
+                                                                        <segue destination="FJL-h2-6xI" kind="modal" id="zpC-dc-XdS"/>
+>>>>>>> Stashed changes
                                                                     </connections>
                                                                 </button>
                                                             </subviews>
@@ -540,6 +544,10 @@
         <image name="location-user" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
+<<<<<<< Updated upstream
         <segue reference="xmf-uk-mrm"/>
+=======
+        <segue reference="zpC-dc-XdS"/>
+>>>>>>> Stashed changes
     </inferredMetricsTieBreakers>
 </document>
