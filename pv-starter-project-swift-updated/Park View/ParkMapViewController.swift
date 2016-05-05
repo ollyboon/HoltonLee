@@ -109,52 +109,12 @@ class ParkMapViewController: UIViewController {
         let region = MKCoordinateRegionMake(park.midCoordinate, span)
         
         mapView.region = region
-    }
-    
-    
-    func loadSelectedOptions() {
-        mapView.removeAnnotations(mapView.annotations)
-        mapView.removeOverlays(mapView.overlays)
         
-        for option in selectedOptions {
-            switch (option) {
-            case .MapOverlay:
-                addOverlay()
-            case .MapPins:
-                addAttractionPins()
-            case .MapRoute:
-                addRoute()
-            case .MapBoundary:
-                addBoundary()
-            case .MapCharacterLocation:
-                addCharacterLocation()
-            }
-        }
+        addOverlay()
+        addRoute()
+        addAttractionPins()
     }
-    
-  
-  override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-    let optionsViewController = segue.destinationViewController as! MapOptionsViewController
-    optionsViewController.selectedOptions = selectedOptions
-  }
-  
-  @IBAction func closeOptions(exitSegue: UIStoryboardSegue) {
-    let optionsViewController = exitSegue.sourceViewController as! MapOptionsViewController
-    selectedOptions = optionsViewController.selectedOptions
-    self.loadSelectedOptions()
-  }
-  
-  @IBAction func mapTypeChanged(sender: AnyObject) {
-    let mapType = MapType(rawValue: mapTypeSegmentedControl.selectedSegmentIndex)
-    switch (mapType!) {
-    case .Standard:
-        mapView.mapType = MKMapType.Standard
-    case .Hybrid:
-        mapView.mapType = MKMapType.Hybrid
-    case .Satellite:
-        mapView.mapType = MKMapType.Satellite
-    }
-  }
+
 }
 
 
