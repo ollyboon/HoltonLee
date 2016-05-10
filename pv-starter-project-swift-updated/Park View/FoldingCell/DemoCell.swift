@@ -1,4 +1,3 @@
-//
 //  DemoCell.swift
 //  FoldingCell
 

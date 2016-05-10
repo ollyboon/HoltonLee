@@ -116,20 +116,23 @@
                                                     </constraints>
                                                 </imageView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HyG-K4-Q48">
-                                                    <rect key="frame" x="0.0" y="114" width="586" height="6"/>
-                                                    <color key="backgroundColor" red="0.40133900539688366" green="0.88070598821989532" blue="0.48767244716150132" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <rect key="frame" x="0.0" y="115" width="586" height="5"/>
+                                                    <color key="backgroundColor" red="0.29682748277363141" green="0.53190506303037111" blue="0.88070598821989532" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="5" id="7Do-AD-7VW"/>
+                                                    </constraints>
                                                 </view>
                                             </subviews>
                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="Nke-zd-RED" firstAttribute="leading" secondItem="HyG-K4-Q48" secondAttribute="trailing" constant="-569" id="0CX-HS-qOc"/>
                                                 <constraint firstItem="YHg-nW-ALI" firstAttribute="leading" secondItem="Nke-zd-RED" secondAttribute="leading" id="N4L-Xt-yvb"/>
-                                                <constraint firstItem="HyG-K4-Q48" firstAttribute="top" secondItem="Y2t-So-LNa" secondAttribute="top" constant="114" id="WEW-nS-ikP"/>
+                                                <constraint firstItem="HyG-K4-Q48" firstAttribute="top" secondItem="Y2t-So-LNa" secondAttribute="top" constant="115" id="WEW-nS-ikP"/>
                                                 <constraint firstItem="Xm8-aJ-gft" firstAttribute="bottom" secondItem="HyG-K4-Q48" secondAttribute="bottom" id="WbB-IV-BQh"/>
                                                 <constraint firstItem="YHg-nW-ALI" firstAttribute="trailing" secondItem="Nke-zd-RED" secondAttribute="trailing" id="WsB-UN-3YV"/>
                                                 <constraint firstAttribute="height" constant="120" id="XTK-St-NYa"/>
                                                 <constraint firstItem="HyG-K4-Q48" firstAttribute="leading" secondItem="Y2t-So-LNa" secondAttribute="leading" id="bFE-L7-Eff"/>
-                                                <constraint firstItem="Xm8-aJ-gft" firstAttribute="top" secondItem="HyG-K4-Q48" secondAttribute="top" constant="-114" id="feq-vX-gsO"/>
+                                                <constraint firstItem="Xm8-aJ-gft" firstAttribute="top" secondItem="HyG-K4-Q48" secondAttribute="top" constant="-115" id="feq-vX-gsO"/>
                                                 <constraint firstItem="YHg-nW-ALI" firstAttribute="top" secondItem="Nke-zd-RED" secondAttribute="bottom" constant="1" id="gh0-vf-fp7"/>
                                                 <constraint firstAttribute="bottom" secondItem="HyG-K4-Q48" secondAttribute="bottom" id="hFj-HP-bne"/>
                                                 <constraint firstAttribute="trailing" secondItem="Xm8-aJ-gft" secondAttribute="trailing" id="qfl-k6-JLI"/>

@@ -95,7 +95,6 @@ class ParkMapViewController: UIViewController {
     
   @IBOutlet weak var mapTypeSegmentedControl: UISegmentedControl!
   
-  var selectedOptions = [MapOptionsType]()
   
     override func viewDidLoad() {
         super.viewDidLoad()
